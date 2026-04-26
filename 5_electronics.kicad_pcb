@@ -9,9 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Smart Camera System")
-		(date "2026-04-21")
+		(date "2026-04-26")
 		(rev "A")
-		(company "Metropolia")
 	)
 	(layers
 		(0 "F.Cu" signal)
