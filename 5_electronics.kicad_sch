@@ -3610,6 +3610,26 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 81.28) (xy 72.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0a394a-19f2-4022-95d9-2aa028a0d22d")
+	)
+	(wire
+		(pts
+			(xy 68.58 83.82) (xy 72.39 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3abfbe-7b4b-4085-b5d7-15c1e9586ef0")
+	)
+	(wire
+		(pts
 			(xy 52.07 92.71) (xy 52.07 100.33)
 		)
 		(stroke
@@ -4237,6 +4257,71 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02d7c9c2-f6c8-4bd2-bbd9-f985d66331cc")
+		(property "Reference" "#PWR016"
+			(at 68.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f234be9e-9d2b-429d-b6fc-e57db7b4c9fe")
+		)
+		(instances
+			(project "5_electronics"
+				(path "/b9f81094-eb83-479c-a644-7dc92c1427a8"
+					(reference "#PWR016")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5185,6 +5270,72 @@
 			(project "5_electronics"
 				(path "/b9f81094-eb83-479c-a644-7dc92c1427a8"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 68.58 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54b8f8b7-e497-4d35-9b06-029d6dcbf1a6")
+		(property "Reference" "#PWR015"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "676a82a3-8dd0-4e18-9827-4a3176055974")
+		)
+		(instances
+			(project "5_electronics"
+				(path "/b9f81094-eb83-479c-a644-7dc92c1427a8"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
